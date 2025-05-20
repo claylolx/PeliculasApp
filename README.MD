@@ -8,8 +8,6 @@ Aplicación web desarrollada con ASP.NET Core MVC que permite buscar películas 
 
 El objetivo principal de esta aplicación es poner en práctica los conocimientos adquiridos durante el curso en desarrollo web con .NET Core MVC. Se ha escogido el tema del cine por su atractivo visual, facilidad de uso de datos públicos mediante API, y por ser una temática con gran aceptación entre los usuarios.
 
-A través de este proyecto, se trabaja:
-
 - El patrón Modelo-Vista-Controlador (MVC)
 - La programación orientada a objetos
 - El consumo de APIs externas con formato JSON
