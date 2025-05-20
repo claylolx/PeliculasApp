@@ -88,15 +88,6 @@ PeliculasApp/
 
 ---
 
-## 🧪 Validaciones y mejoras aplicadas
-
-- Estilos visuales personalizados (estilos.css)
-- Estructura clara de código y carpetas
-- Código limpio, comentado y documentado
-- Cambiada la ruta por defecto a `PeliculasController` en lugar de `HomeController`
-
----
-
 ## 🛠️ Propuestas de mejora y nuevas funcionalidades
 
 - Añadir autenticación de usuarios con roles y login.
@@ -108,11 +99,3 @@ PeliculasApp/
 - Exportar favoritos a PDF o CSV.
 
 ---
-
-## 👨‍💻 Autor del proyecto
-
-**Nombre y apellidos:** Sergi [Tu Apellido Aquí]  
-**Curso:** CFGS Desarrollo de Aplicaciones Web  
-**Módulos:** MP03B y MP09  
-**Unidad formativa:** UF3 – Proyecto Final  
-**Fecha de entrega:** 12/05/2025  
