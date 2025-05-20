@@ -1,0 +1,17 @@
+@model PeliculasApp.Models.PeliculaAPI
+<div class="container">
+    <h2>@Model.Titulo (@Model.Año)</h2>
+
+    <img src="@Model.Poster" alt="Póster de @Model.Titulo" style="max-width:200px;" />
+
+    <p>@Model.Sinopsis</p>
+
+    <a href="/Peliculas/Index">🔙 Volver</a>
+
+    <form asp-action="GuardarFavorito" method="post">
+        <input type="hidden" name="Titulo" value="@Model.Titulo" />
+        <input type="hidden" name="Año" value="@Model.Año" />
+        <input type="hidden" name="Poster" value="@Model.Poster" />
+        <button type="submit">⭐ Guardar como favorito</button>
+    </form>
+</div>

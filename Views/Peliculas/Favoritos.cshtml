@@ -1,0 +1,20 @@
+@model List<PeliculasApp.Models.PeliculaFavorita>
+
+<div class="container">
+    <h2>Mis Películas Favoritas</h2>
+
+    @foreach (var peli in Model)
+    {
+        <div style="margin-bottom: 20px;">
+            <h3>@peli.Titulo (@peli.Año)</h3>
+            <img src="@peli.Poster" style="max-height:200px;" />
+
+            <form asp-action="EliminarFavorito" method="post">
+                <input type="hidden" name="id" value="@peli.Id" />
+                <button type="submit" style="margin-top:10px; background-color:red; color:white;">
+                    ❌ Eliminar
+                </button>
+            </form>
+        </div>
+    }
+</div>
