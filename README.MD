@@ -20,48 +20,6 @@ A través de este proyecto, se trabaja:
 
 ---
 
-## 🧱 Esquema de arquitectura (MVC)
-
-PeliculasApp/
-│
-├── Controllers/
-│ ├── HomeController.cs
-│ └── PeliculasController.cs → Controlador principal (lógica de búsqueda y favoritos)
-│
-├── Data/
-│ ├── AppDbContext.cs → Contexto de base de datos EF Core
-│ └── Migrations/ → Migraciones de SQLite
-│
-├── Models/
-│ ├── PeliculaAPI.cs → Modelo para datos de la API OMDb
-│ ├── PeliculaFavorita.cs → Modelo de base de datos para películas favoritas
-│ └── ErrorViewModel.cs
-│
-├── Views/
-│ ├── Peliculas/
-│ │ ├── Index.cshtml → Página principal con formulario de búsqueda y lista inicial
-│ │ ├── Resultado.cshtml → Detalles de la película seleccionada
-│ │ └── Favoritos.cshtml → Lista de películas favoritas guardadas
-│ └── Shared/
-│ ├── _Layout.cshtml → Layout global del sitio
-│ ├── _ViewImports.cshtml
-│ ├── _ViewStart.cshtml
-│ └── Error.cshtml
-│
-├── wwwroot/
-│ ├── css/
-│ │ ├── estilos.css → Estilo visual personalizado
-│ │ └── site.css → Estilo base del proyecto
-│ ├── js/
-│ └── lib/
-│
-├── appsettings.json
-├── peliculas.db → Archivo SQLite
-├── PeliculasApp.csproj
-└── Program.cs → Configuración de servicios y rutas
-
----
-
 ## 💻 Explicación detallada del código desarrollado (MVC)
 
 ### 📁 MODELS
